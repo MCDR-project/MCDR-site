@@ -54,6 +54,26 @@
          	transform: rotate(105deg); */
         }
 
+        .custom-link1 {
+          color: #96E02A;
+        }
+
+        .custom-link2 {
+          color: #FE9825;
+        }
+
+        .custom-link3 {
+          color: #33BCAB;
+        }
+
+        .custom-link4 {
+          color: #9831FF;
+        }
+
+        .custom-nav {
+          background-color: #2979CE;
+        }
+
       @media only screen and (max-width: 990px) {
         .custom-p {
           font-size: 13px;
@@ -61,6 +81,10 @@
         }
         .custom-faicon {
           font-size: 20px;
+        }
+        .custom-center {
+          text-align: center;
+          margin: 0px;
         }
       }
       </style>
@@ -78,11 +102,11 @@
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                   <a class="nav-item nav-link active text-primary" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="custom-faicon fas fa-home"></i><br>Home</a>
-                  <a class="nav-item nav-link coler:#5EDD62;" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i  class="custom-faicon fas fa-newspaper"></i><br>ルールと規約</a>
-                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i  class="custom-faicon far fa-building"></i><br>再現キャスト募集中</a>
+                  <a class="nav-item nav-link custom-link1" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i  class="custom-faicon fas fa-newspaper"></i><br>ルールと規約</a>
+                  <a class="nav-item nav-link custom-link2" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i  class="custom-faicon far fa-building"></i><br>再現キャスト募集中</a>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download"><i class="custom-faicon fas fa-server"></i><br>連携サーバー<span class="caret"></span></a>
+                  <a class="nav-link dropdown-toggle custom-link3" data-toggle="dropdown" href="#" id="download"><i class="custom-faicon fas fa-server"></i><br>連携サーバー<span class="caret"></span></a>
                   <div class="dropdown-menu" aria-labelledby="dropdown">
                   <a class="dropdown-item" href="http://disneyserver.wixsite.com/disneycrafthp">DisneyCraft様 </a>
                   <a class="dropdown-item" href="https://www.crazynet.ml/">CrazyNET</a>
@@ -90,7 +114,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download"><i class="custom-faicon fas fa-link"></i><br>リンク<span class="caret"></span></a>
+                  <a class="nav-link dropdown-toggle custom-link4" data-toggle="dropdown" href="#" id="download"><i class="custom-faicon fas fa-link"></i><br>リンク<span class="caret"></span></a>
                   <div class="dropdown-menu" aria-labelledby="dropdown">
                   <a class="dropdown-item" href="https://twitter.com/mcdr_server">Twitter</a>
                   <a class="dropdown-item" href="https://www.youtube.com/channel/UC0ra2JkCdxFTdMScNtwJG9w">Youtube</a>
@@ -134,9 +158,9 @@
     </a>
    </div>
 
-      <nav class="nav bg-primary justify-content-center">
+      <nav class="nav custom-nav justify-content-center">
           <div class="container custom-center">
-        <a class="navbar-brand font-weight-bold text-light custom-p">ようこそ、Minecraft Disney Resortへ。</a>
+        <a class="navbar-brand text-light custom-p">ようこそ、Minecraft Disney Resortへ。</a>
         </div>
       </nav>
       <hr>
