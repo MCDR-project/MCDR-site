@@ -70,32 +70,42 @@
       <nav class="cs-margin navbar navbar-expand-lg navbar-light bg-light">
           <div class="container">
         <a class="navbar-brand" href="#"><img src="img/nav-logo.png" style="width: 100px;" class="img-fluid" alt="Responsive image"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">横モード</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="length.html">縦モード</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          通信制限減少モード
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="sakkunn.html">さっくんの枠単体</a>
-                          <a class="dropdown-item" href="reisann.html">麗さんの枠単体</a>
-                        </div>
-                      </li>
-                    </ul>
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active text-primary" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="custom-faicon fas fa-home"></i><br>Home</a>
+                  <a class="nav-item nav-link coler:#5EDD62;" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i  class="custom-faicon fas fa-newspaper"></i><br>ルールと規約</a>
+                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i  class="custom-faicon far fa-building"></i><br>再現キャスト募集中</a>
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download"><i class="custom-faicon fas fa-server"></i><br>連携サーバー<span class="caret"></span></a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown">
+                  <a class="dropdown-item" href="http://disneyserver.wixsite.com/disneycrafthp">DisneyCraft様 </a>
+                  <a class="dropdown-item" href="https://www.crazynet.ml/">CrazyNET</a>
                   </div>
-                  </div>
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download"><i class="custom-faicon fas fa-link"></i><br>リンク<span class="caret"></span></a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown">
+                  <a class="dropdown-item" href="https://twitter.com/mcdr_server">Twitter</a>
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UC0ra2JkCdxFTdMScNtwJG9w">Youtube</a>
+                  <a class="dropdown-item" href="https://discordapp.com/invite/tMcFPcX">Discord</a>
+                </div>
+               </div>
+               <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                  </li>
+                </ul>
               </nav>
     </header>
 
