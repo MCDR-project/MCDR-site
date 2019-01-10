@@ -1,0 +1,96 @@
+body {
+	font-family: "Sawarabi Gothic";
+	margin: 0;
+}
+
+.cs-margin {
+	text-align: center;
+}
+
+.custom-center {
+	text-align: center;
+	margin: 8px;
+}
+.custom-p {
+	font-size: 25px;
+	font-family: "Sawarabi Gothic";
+}
+.custom-p2 {
+	color: #2979CE;
+	font-family: "Sawarabi Gothic";
+}
+.custom-faicon {
+	font-size: 30px;
+}
+hr {
+	text-align: center;
+	background-color: #2979CE;
+	border: 0px;
+	height: 1px;
+	margin-top: 25px;
+	margin-bottom: 25px; 
+}
+hr:after {
+	content: "\002605";
+	display: inline-block;
+	position: relative;
+	top: -17px;
+	left: 38%;
+	padding: 0 20px;
+	color: #2979CE;
+	font-size: 20px;
+  /* -webkit-transform: rotate(1050deg);
+    -moz-transform: rotate(105deg);
+    transform: rotate(105deg); */
+}
+
+.custom-link1 {
+	color: #96E02A;
+}
+
+.custom-link2 {
+	color: #FE9825;
+}
+
+.custom-link3 {
+	color: #33BCAB;
+}
+
+.custom-link4 {
+	color: #9831FF;
+}
+
+.custom-nav {
+	background-color: #2979CE;
+}
+
+.cs-img {
+	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.custom-a {
+	text-align: center;
+}
+
+.custom-a2 {
+	margin: 5px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+	.custom-p {
+		font-size: 13px;
+		font-family: "Sawarabi Gothic";
+	}
+	.custom-faicon {
+		font-size: 20px;
+	}
+	.custom-center {
+		text-align: center;
+		margin: 0px;
+	}
+}
